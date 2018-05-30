@@ -5,8 +5,8 @@ ini_set("display_errors", 1);
 
 $params = array(
     'credentials' => array(
-        'key' => '',
-        'secret' => '',
+        'key' => 'YOUR_KEY_HERE',
+        'secret' => 'YOUR_SECRET_HERE',
     ),
     'region' => 'us-east-1', // < your aws from SNS Topic region
     'version' => 'latest'
@@ -25,7 +25,7 @@ $result = $sns->publish([
             'StringValue' => 'Transactional' // or 'Promotional'
         ]
     ],
-    'PhoneNumber' => '+919599555121',
+    'PhoneNumber' => 'FULL_PHONE_NUMBER',
 ]);
 
 
