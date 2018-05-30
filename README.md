@@ -1,4 +1,4 @@
-# smsusingawsphp
+# SMS USING AWS PHP SDK
 Send SMS using AWS PHP SDK
 Steps to use
 

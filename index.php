@@ -5,8 +5,8 @@ ini_set("display_errors", 1);
 
 $params = array(
     'credentials' => array(
-        'key' => 'AKIAII3LDW6RNDYZYB6Q',
-        'secret' => 'r3QFHasVHiRBGHTmsBiADZzbjjeM6KAm/CsGspmX',
+        'key' => '',
+        'secret' => '',
     ),
     'region' => 'us-east-1', // < your aws from SNS Topic region
     'version' => 'latest'
